@@ -124,11 +124,11 @@ public class SpaceShip {
                 "        `--._________.--'\n";
     }
 
-    public float emergencyStop(){
+    public String emergencyStop(){
         float emergencyBrake = ((velocityX = 0)+(velocityY = 0));
 
         System.out.println("The spaceship have stopped");
-        return emergencyBrake;
+        return "Actual speed is: " + emergencyBrake;
     }
 }
 
