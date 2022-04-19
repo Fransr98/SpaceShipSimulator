@@ -93,15 +93,19 @@ public class SpaceShip {
         this.directionX = directionX;
     }
 
-    private float speedUp(float speed) {
+    private void speedUp() {
+        if (velocityX <2){
+            velocityX += aceleration;
+        }else{
+            velocityX *= 2;
+        }
+        coordinateX = coordinateX + velocityX;
 
-
-        return speed;
     }
 
     @Override
     public String toString() {
-        return "The spaceship ASCII art is: "+name + "\n" +
+        return "The spaceship ASCII art is: "+name + "\n" + "Intergalactic registration: " + intergalacticRegistration + "\n" +
                 "             _     _\n" +
                 "            /_|   |_\\\n" +
                 "           //||   ||\\\\\n" +

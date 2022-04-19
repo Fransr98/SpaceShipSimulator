@@ -10,6 +10,22 @@ public class Cargo extends SpaceShip {
         this.currentload = currentload;
     }
 
+    public int getMaxload() {
+        return maxload;
+    }
+
+    public void setMaxload(int maxload) {
+        this.maxload = maxload;
+    }
+
+    public int getCurrentload() {
+        return currentload;
+    }
+
+    public void setCurrentload(int currentload) {
+        this.currentload = currentload;
+    }
+
     private String load() {
         if (this.currentload >= maxload) {
             System.out.println("The current load doesn't admit more containers");
@@ -33,7 +49,8 @@ public class Cargo extends SpaceShip {
     }
     @Override
     public String toString() {
-        return "The spaceship ASCII art is: " +"\n" +
+        return "The spaceship ASCII art is: " + Cargo.super.getName() + "\n" + "Intergalactic registration: "+ Cargo.super.getIntergalacticRegistration()
+                +"\n"   +"Max Load: " + Cargo.this.maxload +  "\n"+  "Current Load: "+ Cargo.this.currentload +"\n" +
                 "          __\n" +
                 "    .-.__      \\ .-.  ___  __\n" +
                 "    |_|  '--.-.-(   \\/\\;;\\_\\.-._______.-.\n" +
