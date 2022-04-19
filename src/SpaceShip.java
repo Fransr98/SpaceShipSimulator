@@ -131,5 +131,10 @@ public class SpaceShip {
         return "Actual speed is: " + emergencyBrake;
     }
 
+    public String brake(){
+        float handBrake = aceleration -aceleration;
+        return "The current acceleration is : " + handBrake;
+    }
+
 }
 
