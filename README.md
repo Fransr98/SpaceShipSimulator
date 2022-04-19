@@ -60,7 +60,7 @@
 ### 6º- Sobrecargar el método ToString📌
 
 ===================================================
-### 7º- Crear un método cargo que simule una nave de carga📌
+### 7º-[Cargo class](./Docs/Cargo.md) Crear un método cargo que simule una nave de carga📌
 
 ===================================================
 
