@@ -6,7 +6,7 @@
 
 ===================================================
 
-### **1º- Crear una clase tipo SpaceShip que contenga los siguientes elementos:**📌
+### **1º- [SpaceShip class](./Docs/SpaceShip.md) Crear una clase tipo SpaceShip que contenga los siguientes elementos:**📌
 
 #### -Nombre.
 #### -Matrícula galáctica.
@@ -19,7 +19,7 @@
 #### -Dirección X.
 
 ===================================================
-### **2º- Crear los constructores , métodos y todo lo necesario para representar  una nave y su posición en el espacio.**📌
+### 2º- Crear los constructores , métodos y todo lo necesario para representar  una nave y su posición en el espacio.📌
 
 ===================================================
 ###  3º -Representar la nave mediante un ASCII art en la consola de comandos, de manera que el usuario pueda visualizarla.📌

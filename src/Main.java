@@ -12,6 +12,7 @@ public class Main {
 
         System.out.println(millenniumfalcon.emergencyStop());
         System.out.println(millenniumfalcon.brake());
+        System.out.println(xWing.load());
         System.out.println(xWing.unload());
 
 
