@@ -130,5 +130,6 @@ public class SpaceShip {
         System.out.println("The spaceship have stopped");
         return "Actual speed is: " + emergencyBrake;
     }
+
 }
 
