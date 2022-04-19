@@ -101,7 +101,7 @@ public class SpaceShip {
 
     @Override
     public String toString() {
-        return "The spaship is: "+ name + "Intergalactic registration is :" + intergalacticRegistration + "\n" +
+        return "The spaceship is: "+ name + "Intergalactic registration is :" + intergalacticRegistration + "\n" +
                 "             _     _\n" +
                 "            /_|   |_\\\n" +
                 "           //||   ||\\\\\n" +
@@ -122,6 +122,13 @@ public class SpaceShip {
                 "    `.     /         \\     .'\n" +
                 "      `.  /._________.\\  .'\n" +
                 "        `--._________.--'\n";
+    }
+
+    public float emergencyStop(){
+        float emergencyBrake = ((velocityX = 0)+(velocityY = 0));
+
+        System.out.println("The spaceship have stopped");
+        return emergencyBrake;
     }
 }
 
