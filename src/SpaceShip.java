@@ -9,7 +9,7 @@ public class SpaceShip {
     private float directionY;
     private float directionX;
 
-    public SpaceShip(String name, String intergalacticRegistration, float aceleration, float velocityY, float velocityX, float coordinateY, float coordinateX, float directionY, float directionX) {
+    public SpaceShip(String name, String intergalacticRegistration,float aceleration) {
         this.name = name;
         this.intergalacticRegistration = intergalacticRegistration;
         this.aceleration = aceleration;
@@ -101,7 +101,7 @@ public class SpaceShip {
 
     @Override
     public String toString() {
-        return "The spaceship is: "+ name + "Intergalactic registration is :" + intergalacticRegistration + "\n" +
+        return "The spaceship ASCII art is: "+name + "\n" +
                 "             _     _\n" +
                 "            /_|   |_\\\n" +
                 "           //||   ||\\\\\n" +
@@ -132,7 +132,7 @@ public class SpaceShip {
     }
 
     public String brake(){
-        float handBrake = aceleration -aceleration;
+        float handBrake = aceleration - aceleration;
         return "The current acceleration is : " + handBrake;
     }
 
