@@ -94,12 +94,7 @@ public class SpaceShip {
     }
 
     private void speedUp() {
-        if (velocityX <2){
-            velocityX += aceleration;
-        }else{
-            velocityX *= 2;
-        }
-        coordinateX = coordinateX + velocityX;
+
 
     }
 
